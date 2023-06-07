@@ -3,8 +3,8 @@ LABEL maintainer="Fırat Civaner (https://github.com/fcivaner)"
 
 RUN apk add --update openssh-client && rm -rf /var/cache/apk/*
 
-CMD set -x \
-    && echo $SSH_PRIVATE_KEY | sed 's/\\n/\n/g' > /keyfile \
+CMD echo $SSH_PRIVATE_KEY | sed 's/\\n/\n/g' > /keyfile \
+    && set -x \
     && chmod 600 /keyfile \
     && ssh \
     -vv \
