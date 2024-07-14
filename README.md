@@ -6,7 +6,7 @@ docker-ssh-tunnel is a docker image which creates an ssh tunnel for a single por
 
 ### With docker-compose
 
-_IMPORTANT_: Newline characters in the SSH key variable must be represented as \n.
+_IMPORTANT_: Newline characters in the TUNNEL_SSH_KEY variable must be represented as \n.
 
 ```yaml
 version: "2.4"
