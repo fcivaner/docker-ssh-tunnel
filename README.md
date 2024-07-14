@@ -1,6 +1,6 @@
 # docker-ssh-tunnel
 
-docker-ssh-tunnel is a docker image which creates an ssh tunnel for a single port. The SSH key is provided through an environment variable.
+Configuration for a docker image which establishes an ssh tunnel for a single port. The SSH key is provided through an environment variable.
 
 ## Usage
 
