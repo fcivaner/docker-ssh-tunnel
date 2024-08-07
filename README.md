@@ -6,7 +6,7 @@ Configuration for a docker image which establishes an ssh tunnel for a single po
 
 ### With docker-compose
 
-_IMPORTANT_: Newline characters in the TUNNEL_SSH_KEY variable must be represented as \n.
+Important: Newline characters in the TUNNEL_SSH_KEY variable must be represented as \n.
 
 ```yaml
 version: "2.4"
